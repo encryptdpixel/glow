@@ -68,11 +68,11 @@ In **⚙ Glow settings**, select **Guest Wi-Fi** to enter your guest network. Gu
 
 ## Updating
 
-Glow checks for new versions once a day. When one is out, **⬆ Update to Glow x.y** appears at the top of the home screen: select it, then **Update now**. The first time, Android asks you to let Glow install apps. Your settings are kept. (Versions before 1.2.0 can't update themselves: repeat step 3 above once.)
+Glow checks for new versions every few hours. When one is out, **⬆ Update to Glow x.y** appears at the top of the home screen: select it, then **Update now**. The first time, Android asks you to let Glow install apps. Your settings are kept. (Versions before 1.2.0 can't update themselves: repeat step 3 above once.)
 
 ## Privacy
 
-Glow has no accounts, ads, analytics or tracking. What it knows about you stays on your TV. It only goes online for the weather (your city's location, not yours), the daily wallpaper and the daily update check. Full policy: [encryptdpixel.github.io/glow-privacy](https://encryptdpixel.github.io/glow-privacy/).
+Glow has no accounts, ads, analytics or tracking. What it knows about you stays on your TV. It only goes online for the weather (your city's location, not yours), the daily wallpaper and the update check. Full policy: [encryptdpixel.github.io/glow-privacy](https://encryptdpixel.github.io/glow-privacy/).
 
 ## Support Glow
 
