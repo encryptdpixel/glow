@@ -14,7 +14,7 @@ Glow replaces your TV's busy home screen with a calm, simple one that puts what 
 | ![Art frame](docs/img/glow-2-art.png) | ![Guest Wi-Fi](docs/img/glow-3-wifi.png) |
 |---|---|
 
-Works on Android TV and Google TV (Android 8 or newer).
+Works on Android TV and Google TV (Android 8 or newer), on TVs and on TV boxes such as the onn 4K, Chromecast with Google TV and Xiaomi Mi Box. TV boxes have no HDMI inputs of their own, so there the Inputs row is hidden.
 
 ## Download
 
