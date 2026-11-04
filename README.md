@@ -52,9 +52,19 @@ Glow's setup screen walks you through three optional switches and explains each 
 
 Some TV makers block the Home button for other home screens. On those TVs you can still open Glow from your apps.
 
+Home button greyed out, "Restricted setting", or using a Fire TV? See **[Glow help](https://encryptdpixel.github.io/glow/help/)**.
+
+## Arranging apps
+
+Select an app and **hold OK** (or press Menu): **Move** it with ◀ ▶, move it to the front, or hide it. Each mode keeps its own order.
+
+## Screensaver
+
+After a few idle minutes Glow fills the screen with photos, the time and the weather. Select the **Screensaver** card to choose the photos (landscapes, cities, nature, night sky, or your own from the TV or a USB drive), when it starts and how often the photo changes.
+
 ## Updating
 
-Glow checks for new versions once a day. When one is out, a **⬆ Glow x.y is out** link appears at the bottom of the home screen. To update, repeat step 3 above: Downloader installs the new version over the old one and keeps your settings.
+Glow checks for new versions once a day. When one is out, **⬆ Update to Glow x.y** appears at the top of the home screen: select it, then **Update now**. The first time, Android asks you to let Glow install apps. Your settings are kept. (Versions before 1.2.0 can't update themselves: repeat step 3 above once.)
 
 ## Privacy
 
