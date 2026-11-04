@@ -18,7 +18,7 @@ Works on Android TV and Google TV (Android 8 or newer).
 
 ## Download
 
-**[Download the latest Glow APK](https://github.com/encryptdpixel/glow/releases/latest/download/glow.apk)** · [All releases](https://github.com/encryptdpixel/glow/releases)
+**[Download the latest Glow APK](https://encryptdpixel.github.io/glow/glow.apk)** · [All releases](https://github.com/encryptdpixel/glow/releases)
 
 ## Install on your TV
 
