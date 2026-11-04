@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Glow — a calm home screen for Android TV</title>
+<link rel="icon" href="img/icon.png">
+<style>
+:root{--bg:#fbfaf7;--fg:#1d2230;--muted:#5d6475;--line:#e4e1d8;--accent:#c4562b;--card:#fff}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#11141c;--fg:#e8e9ee;--muted:#a3a9b8;--line:#2a2f3c;--accent:#f0915e;--card:#181c26}}
+:root[data-theme="dark"]{--bg:#11141c;--fg:#e8e9ee;--muted:#a3a9b8;--line:#2a2f3c;--accent:#f0915e;--card:#181c26}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:860px;margin:0 auto;padding:40px 16px 80px}
+header{display:flex;align-items:center;gap:16px}
+header img{width:64px;height:64px;border-radius:16px}
+h1{font-size:2rem;line-height:1.2;margin:0}
+.tag{color:var(--muted);margin:2px 0 0}
+h2{font-size:1.25rem;margin:40px 0 10px;padding-top:20px;border-top:1px solid var(--line)}
+a{color:var(--accent)}
+.shot{width:100%;height:auto;border-radius:12px;border:1px solid var(--line);display:block}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px}
+.btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;font-weight:700;padding:12px 22px;border-radius:10px;margin:24px 0 4px}
+ol li{margin:8px 0}
+code{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:2px 8px;font-size:1.05em}
+.note{color:var(--muted);font-size:.95rem}
+@media (max-width:560px){.pair{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<main>
+<header><img src="img/icon.png" alt=""><div><h1>Glow</h1><p class="tag">A calm, beautiful home screen for Android TV and Google TV. Free, no ads, no account.</p></div></header>
+
+<a class="btn" href="https://github.com/encryptdpixel/glow/releases/latest/download/glow.apk">Download Glow (APK)</a>
+<p class="note">On the TV itself? Use the Downloader app and the steps below.</p>
+
+<img class="shot" src="img/glow-1-home.png" alt="Glow home screen with a film on the Resume banner, recently watched apps, inputs, weather and a guest Wi-Fi QR code">
+<div class="pair"><img class="shot" src="img/glow-2-art.png" alt="Art frame showing the day's photo"><img class="shot" src="img/glow-3-wifi.png" alt="Guest Wi-Fi settings with a QR preview"></div>
+
+<h2>Install or update on your TV</h2>
+<ol>
+<li><b>Get Downloader.</b> On the TV, open Google Play, search for <b>Downloader</b> (by AFTVnews) and install it.</li>
+<li><b>Let Downloader install apps.</b> Go to <b>Settings › Apps › Security &amp; restrictions › Unknown sources</b> and switch on Downloader. On many Google TV models this menu only appears after you turn on developer options: go to <b>Settings › System › About</b> and select <b>Android TV OS build</b> seven times.</li>
+<li><b>Download Glow.</b> Open Downloader, type <code>encryptdpixel.github.io/glow/apk</code> and select <b>Go</b>, then <b>Install</b>. To update later, do the same: your settings are kept.</li>
+<li><b>If Play Protect warns you</b> about an unknown developer, select <b>More details › Install anyway</b>. Glow isn't on Google Play, so Play Protect doesn't know it yet.</li>
+<li><b>Open Glow</b> from your apps and follow its setup screen.</li>
+</ol>
+
+<h2>Setting up</h2>
+<p>Glow's setup screen explains three optional switches before you turn them on: <b>Notification access</b> (to show what's playing; your notifications are never read or kept), <b>Usage access</b> (for "Recently watched") and an <b>accessibility service</b>, used only so the remote's Home button opens Glow. It doesn't read the screen, see what you type or collect any data. Some TV makers block the Home button for other home screens; there you can still open Glow from your apps.</p>
+
+<h2>Privacy</h2>
+<p>No accounts, ads, analytics or tracking. What Glow knows about you stays on your TV. <a href="https://encryptdpixel.github.io/glow-privacy/">Read the privacy policy</a>.</p>
+
+<h2>Support Glow</h2>
+<p>Glow is free. If it makes your TV nicer to use, you can <a href="https://paypal.me/encryptdpixel">buy me a coffee through PayPal</a> ☕</p>
+
+<p class="note">Made by Pixel Man · <a href="https://github.com/encryptdpixel/glow">GitHub</a> · <a href="https://github.com/encryptdpixel/glow/issues">Report a problem</a> · Weather by MET Norway (CC BY 4.0) · Wallpapers from Wikimedia Commons</p>
+</main>
+</body>
+</html>
