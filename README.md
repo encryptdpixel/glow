@@ -10,9 +10,12 @@ Glow replaces your TV's busy home screen with a calm, simple one that puts what 
 - **A new wallpaper every day:** featured landscape photos from Wikimedia Commons, each credited, plus an Art frame when the TV sits idle.
 - **Weather and a big clock.**
 - **Guest Wi-Fi in one scan:** a QR code on the home screen that guests scan with their phone camera.
+- **Prayer times (optional):** today's five prayers with a countdown to the next one and the Hijri date, calculated on the TV with your region's method. On by default in Muslim-majority regions; switch it on or off in Glow's setup.
 
 | ![Art frame](docs/img/glow-2-art.png) | ![Guest Wi-Fi](docs/img/glow-3-wifi.png) |
 |---|---|
+
+![Prayer times on the home screen](docs/img/glow-5-prayer.png)
 
 Works on Android TV and Google TV (Android 8 or newer), on TVs and on TV boxes such as the onn 4K, Chromecast with Google TV and Xiaomi Mi Box. TV boxes have no HDMI inputs of their own, so there the Inputs row is hidden.
 
