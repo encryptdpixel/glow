@@ -1,4 +1,4 @@
-# Glow — a calm home screen for Android TV
+# Glow - A calm home screen for Android TV
 
 Glow replaces your TV's busy home screen with a calm, simple one that puts what you watch first. No ads, no sponsored rows, no account.
 
