@@ -29,12 +29,12 @@ pre code{border:0;padding:0;background:none}
 <p class="note">If something here doesn't match your TV, <a href="https://github.com/encryptdpixel/glow/issues">open an issue</a> with your TV or box model.</p>
 
 <h2>The Home button still opens the old home screen</h2>
-<p>Glow catches the Home button with an Android accessibility service. Open <b>Glow setup</b> (bottom of Glow's home screen) and check that <b>Open Glow with the Home button</b> says <b>On ✓</b>.</p>
+<p>Glow catches the Home button with an Android accessibility service. Open <b>⚙ Glow settings</b> (bottom of Glow's home screen) and check that <b>Open Glow with the Home button</b> says <b>On ✓</b>.</p>
 <p><b>The switch is greyed out, says "Restricted setting", or turns itself off again.</b> Android 13 and newer block accessibility for apps installed from a file (for example with Downloader). To allow it:</p>
 <ol>
-<li>Go to <b>Settings › Apps › See all apps › Glow</b> (Glow setup's <b>App info</b> button opens this page).</li>
+<li>Go to <b>Settings › Apps › See all apps › Glow</b> (the <b>App info</b> button in Glow settings opens this page).</li>
 <li>Look for <b>Allow restricted settings</b>. On some models it is in a <b>⋮</b> menu at the top. Select it.</li>
-<li>Go back to Glow setup and turn the Home button on again.</li>
+<li>Go back to Glow settings and turn the Home button on again.</li>
 </ol>
 <p><b>No "Allow restricted settings" anywhere?</b> Some Google TV models (such as the Google TV Streamer) don't show it. It can be allowed once from a computer on the same Wi-Fi, with Android's free <a href="https://developer.android.com/tools/releases/platform-tools">platform tools</a>:</p>
 <ol>
@@ -49,13 +49,13 @@ adb shell settings put secure accessibility_enabled 1</code></pre>
 <p>You can turn developer options off again afterwards.</p>
 
 <p><b>Amazon Fire TV.</b> Fire TV doesn't let any other home screen take the Home button. Open Glow from <b>Your apps</b> instead.</p>
-<p><b>Some TV boxes</b> have a <b>Default home app</b> page (Glow setup shows a button for it). Choosing Glow there is all you need.</p>
+<p><b>Some TV boxes</b> have a <b>Default home app</b> page (Glow settings shows a button for it). Choosing Glow there is all you need.</p>
 
 <h2>Arranging apps</h2>
-<p>On Glow's home screen, select an app and <b>hold OK</b> (or press <b>Menu</b>). Choose <b>Move</b>, use ◀ ▶ to carry it, then press <b>OK</b>. Each mode (Kids, Movie night, Gaming, Music) keeps its own order. <b>Hide from home</b> removes an app from the row; <b>Glow setup › Show hidden apps</b> brings them back.</p>
+<p>On Glow's home screen, select an app and <b>hold OK</b> (or press <b>Menu</b>). Choose <b>Move</b>, use ◀ ▶ to carry it, then press <b>OK</b>. Each mode (Kids, Movie night, Gaming, Music) keeps its own order. <b>Hide from home</b> removes an app from the row; <b>Glow settings › Show hidden apps</b> brings them back.</p>
 
 <h2>Screensaver and wallpaper</h2>
-<p>Select the <b>Screensaver</b> card on the home screen. You can pick the photos (landscapes, cities, nature, night sky or your own), when the screensaver starts, how often the photo changes, and whether the home wallpaper changes every hour or every day.</p>
+<p>Open <b>⚙ Glow settings</b> and select <b>Wallpaper &amp; screensaver</b>. On TVs, <b>Screensaver</b> in the quick controls at the top of the home screen opens it too. You can pick the photos (landscapes, cities, nature, night sky or your own), when the screensaver starts, how often the photo changes, and whether the home wallpaper changes every hour or every day.</p>
 <p><b>My photos</b> shows pictures stored on the TV or on a plugged-in USB drive. Glow asks for permission to see them the first time.</p>
 
 <h2>Updating</h2>

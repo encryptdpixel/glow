@@ -7,10 +7,10 @@ Glow replaces your TV's busy home screen with a calm, simple one that puts what 
 - **Pick up where you left off:** the Resume banner shows what was playing last; one press of OK takes you back.
 - **Your apps and inputs:** all your apps in one row, a "Recently watched" row, and your HDMI inputs one press away.
 - **Modes:** Kids, Movie night, Gaming and Music bring the right apps to the front.
-- **A new wallpaper every day:** featured landscape photos from Wikimedia Commons, each credited, plus an Art frame when the TV sits idle.
+- **A new wallpaper every day:** featured landscape photos from Wikimedia Commons, plus a full-screen screensaver when the TV sits idle, each photo credited.
 - **Weather and a big clock.**
-- **Guest Wi-Fi in one scan:** a QR code on the home screen that guests scan with their phone camera.
-- **Prayer times (optional):** today's five prayers with a countdown to the next one and the Hijri date, calculated on the TV with your region's method. On by default in Muslim-majority regions; switch it on or off in Glow's setup.
+- **Guest Wi-Fi in one scan (optional):** a QR code on the home screen that guests scan with their phone camera.
+- **Prayer times (optional):** today's five prayers with a countdown to the next one and the Hijri date, calculated on the TV with your region's method. On by default in Muslim-majority regions; switch it on or off in Glow settings.
 
 | ![Art frame](docs/img/glow-2-art.png) | ![Guest Wi-Fi](docs/img/glow-3-wifi.png) |
 |---|---|
@@ -38,13 +38,13 @@ The easiest way uses the free **Downloader** app, so you don't need a computer.
 
    Select **Go**. When the download finishes, select **Install**.
 4. **If Play Protect warns you** that the app is from an unknown developer, select **More details › Install anyway**. Glow isn't on Google Play yet, so Play Protect doesn't know it.
-5. **Open Glow** from your apps and follow its setup screen.
+5. **Open Glow** from your apps and follow its settings screen.
 
 Prefer a computer? With adb: `adb install glow.apk`.
 
 ## Setting up
 
-Glow's setup screen walks you through three optional switches and explains each one before you turn it on:
+The first time, Glow settings walks you through three optional switches and explains each one before you turn it on:
 
 - **Notification access**, to show what's playing on the Resume banner. Glow never reads or keeps your notifications.
 - **Usage access**, for the "Recently watched" row.
@@ -60,7 +60,11 @@ Select an app and **hold OK** (or press Menu): **Move** it with ◀ ▶, move it
 
 ## Screensaver
 
-After a few idle minutes Glow fills the screen with photos, the time and the weather. Select the **Screensaver** card to choose the photos (landscapes, cities, nature, night sky, or your own from the TV or a USB drive), when it starts and how often the photo changes.
+After a few idle minutes Glow fills the screen with photos, the time and the weather. In **⚙ Glow settings**, select **Wallpaper & screensaver** to choose the photos (landscapes, cities, nature, night sky, or your own from the TV or a USB drive), when it starts and how often the photo changes.
+
+## Guest Wi-Fi
+
+In **⚙ Glow settings**, select **Guest Wi-Fi** to enter your guest network. Guests scan the QR code on the home screen with their phone camera to join. Choose **Hide it** to keep the network saved but take the code off the home screen.
 
 ## Updating
 
