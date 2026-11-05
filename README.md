@@ -13,7 +13,7 @@ Glow replaces your TV's busy home screen with a calm, simple one that puts what 
 - **Guest Wi-Fi in one scan (optional):** a QR code on the home screen that guests scan with their phone camera.
 - **Prayer times (optional):** today's five prayers with a countdown to the next one and the Hijri date, calculated on the TV with your region's method. On by default in Muslim-majority regions; switch it on or off in Glow settings.
 
-| ![Art frame](docs/img/glow-2-art.png) | ![Guest Wi-Fi](docs/img/glow-3-wifi.png) |
+| ![Radio on the home screen](docs/img/glow-2-radio.png) | ![Guest Wi-Fi](docs/img/glow-3-wifi.png) |
 |---|---|
 
 ![Prayer times on the home screen](docs/img/glow-5-prayer.png)
@@ -47,6 +47,8 @@ Prefer a computer? With adb: `adb install glow.apk`.
 
 The first time, Glow settings walks you through three optional switches and explains each one before you turn it on:
 
+![Glow settings](docs/img/glow-4-settings.png)
+
 - **Notification access**, to show what's playing on the Resume banner. Glow never reads or keeps your notifications.
 - **Usage access**, for the "Recently watched" row.
 - **An accessibility service**, so the remote's Home button opens Glow. Google TV normally sends Home to its own screen, and this is the only way to change that. Glow uses it only to catch the Home button and to notice when Google TV's home screen opens. It doesn't read the screen, see what you type or collect any data.
@@ -64,6 +66,8 @@ Select an app and **hold OK** (or press Menu): **Move** it with ◀ ▶, move it
 In **⚙ Glow settings**, select **Main card** to choose what the big card at the top left shows: **What's playing** (the Resume banner), **Radio**, or **Off** for a cleaner screen.
 
 With Radio, select **Stations** to browse by category (Quran, Nasheeds, Arabic, Malayalam, Hindi, English hits, Lo-fi, News) or search. OK plays a station, ☆ saves it to Your stations, which then appear on the card for one-press switching. The radio stops when a video starts, when you switch to an HDMI input, or when the TV turns off. Stations come from [radio-browser.info](https://www.radio-browser.info/), a free community directory; Glow only plays stations with secure (https) links.
+
+![Radio stations](docs/img/glow-6-stations.png)
 
 ## Screensaver
 
